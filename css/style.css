@@ -1,7 +1,60 @@
-.body {
- font-family: Roboto, sans-serif;
+/* Основоной цвет #757575 
+цвет заголовков #212121
+Цвет при ховере/фокусе #2196F3
+Цвет бекграунда/1 заголовка #FFFFFF
+цвет другого бекгрануда  #2F303A
+и цвет еще одного бекграунда  */
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
 
+.body {
+  background-color: #ffffff;
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* Logo */
 .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+}
 
+.logo-style {
+  color: var(--accent-color);
+}
+
+/* Site navigation */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Contacts */
+.contacts .link-contact {
+  color: #757575;
+}
+.contacts .link-contact:hover,
+.contacts .link-contact:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+
+/* Sections */
+.section-title {
+  color: var(--title-text-color);
 }
