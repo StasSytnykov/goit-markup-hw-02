@@ -17,6 +17,11 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
+ul {
+  list-style: none;
+}
+
 /* Logo */
 .logo {
   font-family: Raleway, sans-serif;
@@ -29,6 +34,7 @@
 .logo-style {
   color: var(--style-color);
 }
+
 .logo-style-footer {
   color: var(--accent-color);
 }
@@ -50,9 +56,14 @@
 
 /* Contacts */
 .contacts .link-contact {
-  color: #757575;
+  color: inherit;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
 .contacts .link-contact:hover,
 .contacts .link-contact:focus {
   color: var(--style-color);
@@ -62,50 +73,124 @@
 .hero {
   background-color: #2f303a;
 }
+
 .hero-title {
   color: var(--accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
 .hero-btn {
-  background-color: var(--accent-color);
-  color: var(--style-color);
+  background-color: var(--style-color);
+  color: var(--accent-color);
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Sections */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
+
 .section-subtitle {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
+
+.section-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .section-color {
   background-color: #f5f4fa;
+}
+
+/* Our team */
+.list {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+
+.list-text {
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+}
+
+/* Buttons*/
+.button .list-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.button .list-button:focus,
+.button .list-button:hover {
+  background-color: var(--style-color);
+  color: var(--accent-color);
+}
+
+.list-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+/* Our produtcs */
+.item {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.item-description {
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* Footer */
 .footer {
   background-color: #2f303a;
 }
+
 .footer .footer-text {
   color: var(--accent-color);
 }
+
 .footer .footer-contact {
-  color: #757575;
+  color: inherit;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
 .footer .footer-contact:hover,
 .footer .footer-contact:focus {
   color: var(--style-color);
-}
-
-/* Products and buttons*/
-.button .btn {
-  background-color: #f5f4fa;
-  color: var(--title-text-color);
-  cursor: pointer;
-}
-.button .btn:focus,
-.button .btn:hover {
-  background-color: var(--style-color);
-  color: var(--accent-color);
 }
