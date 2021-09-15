@@ -49,6 +49,10 @@ body {
   color: var(--style-color);
 }
 
+.site-nav .link-style {
+  color: var(--style-color);
+}
+
 /* Contacts */
 .contacts .link-contact {
   text-decoration: none;
@@ -174,6 +178,7 @@ body {
 
 .footer .footer-text {
   color: var(--accent-color);
+  font-style: normal;
 }
 
 .footer .footer-contact {
