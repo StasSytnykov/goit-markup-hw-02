@@ -1,3 +1,4 @@
+/* Utilites */
 :root {
   --primery-text-color: #757575;
   --title-text-color: #212121;
@@ -34,7 +35,6 @@ body {
   color: var(--accent-color);
 }
 
-/* Site navigation */
 .site-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -52,6 +52,7 @@ body {
 .site-nav .link-style {
   color: var(--style-color);
 }
+
 
 /* Contacts */
 .contacts .link-contact {
